@@ -6,7 +6,7 @@ A command-line tool for reporting and manipulating Unix timestamps.
 
 `unixtime` will run on most Linux, MacOS and Windows systems.
 
-To install it, just `cd` into the directory in which you wish to install it and then copy-paste the appropriate one-liner below (based on the destination O/S and architecture).
+To install it, just `cd` into the directory in which you wish to install it and then copy-paste the appropriate one-liner from below (based on the destination O/S and architecture).
 
 ### Linux (32-bit)
 
