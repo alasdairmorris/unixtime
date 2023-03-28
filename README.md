@@ -4,11 +4,9 @@ A command-line tool for reporting and manipulating Unix timestamps.
 
 ## Installation
 
-`unixtime` will run on most Linux and Mac OS X systems.
+`unixtime` will run on most Linux, Mac OS X and Windows systems.
 
-To install it, just find the appropriate one-liner below - based on the destination O/S and architecture - and copy-paste it into your terminal.
-
-Feel free to change the install dir - `$HOME/bin` in the examples below - to be something more appropriate for your needs.
+To install it, just `cd` into the directory in which you wish to install it and then copy-paste the appropriate one-liner below (based on the destination O/S and architecture).
 
 ### Linux (32-bit)
 
