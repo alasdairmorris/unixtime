@@ -13,26 +13,39 @@ Feel free to change the install dir - `$HOME/bin` in the examples below - to be 
 ### Linux (32-bit)
 
 ```
-curl -s -L -o - https://github.com/alasdairmorris/unixtime/releases/latest/download/unixtime-linux-386.tar.gz | tar -zxf - -C $HOME/bin
+curl -s -L -o unixtime https://github.com/alasdairmorris/unixtime/releases/latest/download/unixtime-linux-386 && chmod +x unixtime
 ```
 
 ### Linux (64-bit)
 
 ```
-curl -s -L -o - https://github.com/alasdairmorris/unixtime/releases/latest/download/unixtime-linux-amd64.tar.gz | tar -zxf - -C $HOME/bin
+curl -s -L -o unixtime https://github.com/alasdairmorris/unixtime/releases/latest/download/unixtime-linux-amd64 && chmod +x unixtime
 ```
 
 ### Mac OS X (Intel)
 
 ```
-curl -s -L -o - https://github.com/alasdairmorris/unixtime/releases/latest/download/unixtime-darwin-amd64.tar.gz | tar -zxf - -C $HOME/bin
+curl -s -L -o unixtime https://github.com/alasdairmorris/unixtime/releases/latest/download/unixtime-darwin-amd64 && chmod +x unixtime
 ```
 
 ### Mac OS X (Apple Silicon)
 
 ```
-curl -s -L -o - https://github.com/alasdairmorris/unixtime/releases/latest/download/unixtime-darwin-arm64.tar.gz | tar -zxf - -C $HOME/bin
+curl -s -L -o unixtime https://github.com/alasdairmorris/unixtime/releases/latest/download/unixtime-darwin-arm64 && chmod +x unixtime
 ```
+
+### Windows (32-bit)
+
+```
+curl -s -L -o unixtime.exe https://github.com/alasdairmorris/unixtime/releases/latest/download/unixtime-windows-386.exe
+```
+
+### Windows (64-bit)
+
+```
+curl -s -L -o unixtime.exe https://github.com/alasdairmorris/unixtime/releases/latest/download/unixtime-windows-amd64.exe
+```
+
 
 ### Build From Source
 
