@@ -99,3 +99,7 @@ $ unixtime -m "-30 days"
 $ unixtime -m "-30 days" --localtime
 2023-02-26 18:55:19 GMT
 ```
+
+## License
+
+[MIT](LICENSE)
